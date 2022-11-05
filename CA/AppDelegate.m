@@ -16,6 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    if([userDefault valueForKey:@"hasCache"] == nil){
+        [[NSUserDefaults standardUserDefaults] setValue:@"no" forKey:@"hasCache"];
+    }
     return YES;
 }
 

@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) UILabel *resultLable; //结果
 @property (nonatomic,strong) UILabel *symbloLable; //操作符号
+
+//1+2 
 @property (nonatomic,strong) UILabel *cabLabel; //被操作符号
 @property (nonatomic,strong) UILabel *caLabel; //操作数
 

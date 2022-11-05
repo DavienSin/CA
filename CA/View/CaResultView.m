@@ -35,6 +35,7 @@
         self.resultLable.numberOfLines = 1;
         self.resultLable.textAlignment = NSTextAlignmentRight;
         self.resultLable.font = [UIFont boldSystemFontOfSize:40];
+        self.resultLable.text = @"";
 
         //symbloLable
         self.symbloLable = [[UILabel alloc] init];
@@ -63,6 +64,7 @@
         self.cabLabel.numberOfLines = 1;
         self.cabLabel.textAlignment = NSTextAlignmentRight;
         self.cabLabel.font = [UIFont boldSystemFontOfSize:40];
+        self.cabLabel.text = @"";
 
         //caLable
         self.caLabel = [[UILabel alloc] init];

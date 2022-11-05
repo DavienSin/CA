@@ -8,6 +8,7 @@ target 'CA' do
   # Pods for CA
 	pod 'Masonry'
 	pod 'AFNetworking'
+  pod 'MBProgressHUD', '~> 1.2.0'
   target 'CATests' do
     inherit! :search_paths
     # Pods for testing
